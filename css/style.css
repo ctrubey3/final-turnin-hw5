@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.parent1 .child1 {
+  position: absolute;
+  top: 94px;
+  right: 410px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: auto;
+  display: flex;
+}
+.parent1 .child2 {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: auto;
+  display: flex;
+}
+.parent1 .child3 {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  margin-right: 1px;
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+}
+body .parent2 .child5,
+html .parent2 .child5 {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin-top: 8px;
+  display: flex;
+}
+body .parent2 .child6,
+html .parent2 .child6 {
+  position: absolute;
+  top: 150px;
+  left: 138px;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: auto;
+  display: flex;
+}
+body .parent2 .child7,
+html .parent2 .child7 {
+  position: absolute;
+  top: 289px;
+  left: 1px;
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  display: flex;
+}
+body body .parent3 .children1,
+html body .parent3 .children1,
+body html .parent3 .children1,
+html html .parent3 .children1 {
+  position: absolute;
+  top: 344px;
+  left: 340px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin-top: 8px;
+  display: flex;
+}
+body body .parent3 .children2,
+html body .parent3 .children2,
+body html .parent3 .children2,
+html html .parent3 .children2 {
+  position: absolute;
+  top: 199px;
+  left: 197px;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: auto;
+  display: flex;
+}
+body body .parent3 .children3,
+html body .parent3 .children3,
+body html .parent3 .children3,
+html html .parent3 .children3 {
+  position: absolute;
+  top: 300px;
+  left: 298px;
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  display: flex;
+}
+body .parent4 .dog1,
+html .parent4 .dog1 {
+  position: absolute;
+  bottom: 1px;
+  right: 402px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: auto;
+  display: flex;
+}
+body .parent4 .dog2,
+html .parent4 .dog2 {
+  position: absolute;
+  bottom: 165px;
+  right: 358px;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: auto;
+  display: flex;
+}
+body .parent4 .dog3,
+html .parent4 .dog3 {
+  position: absolute;
+  bottom: 120px;
+  right: 538px;
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  display: flex;
+}
+body .parent5 .children4,
+html .parent5 .children4 {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: auto;
+  display: flex;
+}
+body .parent5 .children5,
+html .parent5 .children5 {
+  position: absolute;
+  top: 1px;
+  left: 222px;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: auto;
+  display: flex;
+}
+body .parent5 .children6,
+html .parent5 .children6 {
+  position: absolute;
+  top: 118px;
+  left: 221px;
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  display: flex;
+}
+ul {
+  position: absolute;
+  right: 100px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+a {
+  display: inline-block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
